@@ -9,6 +9,9 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
   },
+  experiments: {
+    topLevelAwait: true,
+  },
   module: {
     rules: [
       {
